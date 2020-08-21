@@ -10,12 +10,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #f1f1f1;
     overflow-x: scroll;
-    overflow-y: hidden;
 }
 main{
     display: flex;
     height: 70vh;
-    margin: 15vh 0;
 }
 
 /* **************** All **************** */
@@ -24,6 +22,7 @@ section{
     height: 70vh;
     display: grid;
     grid-template-columns: 1fr auto;
+    margin: 15vh 0;
     box-shadow: 0px 0px 30px #00000099;
 }
 section article{
